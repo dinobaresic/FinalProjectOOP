@@ -102,7 +102,7 @@ public class WelcomeMainFrame extends JFrame {
                     JOptionPane.showMessageDialog(null, "Please start a new day first.");
                 } else {
                     // The file exists, so open the CurrentCustomersFrame
-                    //new CurrentCustomersFrame();
+                    new CurrentCustomersFrame();
                     dispose();
                 }
             }
@@ -120,7 +120,7 @@ public class WelcomeMainFrame extends JFrame {
                 } else {
                     // The file exists, so open the CurrentCustomersFrame
                     dispose();
-                   // new DeleteCustomerFrame();
+                   new DeleteCustomerFrame();
                 }
             }
 

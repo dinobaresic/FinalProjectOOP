@@ -1,3 +1,5 @@
+import javax.swing.*;
+
 public class MainApp {
     public static void main(String[] args) {
 
@@ -11,6 +13,11 @@ public class MainApp {
         System.out.println(customer);
 
          */
+
+        SwingUtilities.invokeLater(() -> {
+            new WelcomeMainFrame();
+        });
+
 
 
     }
